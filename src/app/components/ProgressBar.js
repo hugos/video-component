@@ -45,7 +45,7 @@ const ProgressBar = ({ currentTime, duration, onSeek }) => {
     height: `${handleSize}px`,
     borderRadius: `${handleSize / 2}px`,
     transform: isUserSeeking
-      ? "scale(1.5) translate(-50%, -50%)"
+      ? "scale(1.2) translate(-50%, -50%)"
       : "translate(-50%, -50%)",
   };
 
